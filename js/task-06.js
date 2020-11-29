@@ -18,8 +18,8 @@ do {
 
 // console.log(numbers);
 
-for (const argument of numbers) {
-    total += argument;
+for (const number of numbers) {
+    total += number;
 }
   
 console.log(`Общая сумма чисел равна ${total}`);
