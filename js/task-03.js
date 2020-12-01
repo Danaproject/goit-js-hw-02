@@ -1,9 +1,9 @@
 const findLongestWord = function(string) {
-    string = string.split(' ');
-    let longestWord = string[0];
-    for (let i = 1; i < string.length; i += 1) {
-        if (string[i].length > longestWord.length) {
-            longestWord = string[i];
+    const words = string.split(' ');
+    let longestWord = words[0];
+    for (const word of words) {
+        if (word.length > longestWord.length) {
+            longestWord = word;
         }
     }
     return longestWord;
